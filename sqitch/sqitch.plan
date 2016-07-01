@@ -4,3 +4,4 @@
 catalog_registry 2016-06-29T15:18:16Z Benjamin Adams <Ben.Adams@rpsgroup.com> # Add catalog registry schema
 add_tables_and_fields 2016-06-29T17:17:09Z Benjamin Adams <Ben.Adams@rpsgroup.com> # Adds tables and fields to harvesting config
 users_and_orgs 2016-06-30T14:52:19Z Benjamin Adams <Ben.Adams@rpsgroup.com> # Adds users and organizations to schema
+remove_harvest_cols 2016-07-01T20:39:22Z Benjamin Adams <Ben.Adams@rpsgroup.com> # Remove columns from harvest tables
