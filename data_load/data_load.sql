@@ -23,8 +23,6 @@ INSERT INTO catalog_registry.catalog_harvests (organization_id, url)
          SELECT o.id, v.url FROM 
         (VALUES
         ( 'PacIOOS', 'http://oos.soest.hawaii.edu/pacioos/metadata/iso/' ),
-        ( 'NDBC', 'http://sdf.ndbc.noaa.gov/sos/server.php?service=SOS&request=GetCapabilities' ),
-        ( 'GLOS', 'http://oos.soest.hawaii.edu/pacioos/metadata/iso/' ),
         ( 'GCOOS', 'http://barataria.tamu.edu/iso/' ),
         ( 'Unidata', 'http://thredds.axiomalaska.com/iso/unidata/' ),
         ( 'NANOOS', 'http://data.nanoos.org/metadata/coastwatcherded/osuclm/' ),
