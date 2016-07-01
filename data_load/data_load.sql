@@ -1,10 +1,3 @@
---
--- PostgreSQL database dump
---
-
--- Dumped from database version 9.5.3
--- Dumped by pg_dump version 9.5.3
-
 SET statement_timeout = 0;
 SET lock_timeout = 0;
 SET client_encoding = 'UTF8';
@@ -14,10 +7,6 @@ SET client_min_messages = warning;
 SET row_security = off;
 
 SET search_path = catalog_registry, pg_catalog;
-
---
--- Data for Name: organizations; Type: TABLE DATA; Schema: catalog_registry; Owner: ckanadmin
---
 
 INSERT INTO catalog_registry.organizations (name) VALUES
                                         ('PacIOOS'), ('SCCOOS'), ('NDBC'),
