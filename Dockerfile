@@ -8,4 +8,6 @@ RUN apt-get update && apt-get install -y \
 
 RUN rm -rf /var/lib/apt/lists/*
 COPY sqitch /etc/sqitch
-COPY init-sqitch.sh /docker-entrypoint-initdb.d/sqitsh.sh
+COPY init-sqitch.sh /docker-entrypoint-initdb.d/sqitch.sh
+COPY data_load/data_load.sql /docker-entrypoint-initdb.d/z-load-data.sql
+
