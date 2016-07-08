@@ -2,8 +2,6 @@
 
 BEGIN;
 
-    SELECT id, url, provider, email, harvest_interval, enabled
-          FROM catalog_registry.catalog_harvests
-          WHERE FALSE;
+    -- Verified now by a view
 
 ROLLBACK;
